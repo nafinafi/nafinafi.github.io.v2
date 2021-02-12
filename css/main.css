@@ -27796,8 +27796,8 @@ button.btn {
   font-weight: 400
 }
 
-.btn-blue {
-  background: var(--blue);
+.btn-orange {
+  background: var(--orange);
   color: #fff
 }
 
@@ -27818,8 +27818,8 @@ button.btn:hover {
   border: none
 }
 
-.btn-blue:hover {
-  color: var(--blue)
+.btn-orange:hover {
+  color: var(--orange)
 }
 
 .btn-black:hover {
