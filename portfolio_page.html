@@ -5,6 +5,32 @@ layout: default
 <div>
     {% include head.html %}
     {% include navbar.html %}
+    <div class="main-content">
+        <div class="container">
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="breadcrumb-container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="{{ site.baseurl }}">Home</a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        About
+                    </li>
+                </ol>
+            </nav>
+            <!-- TITLE -->
+            <section class="row">
+                <div class="col-12">
+                    <h2>
+                        Portfolio
+                    </h2>
+                </div>
+            </section>
+            <!-- LIST Portfolio-->
+
+        </div>
+    </div>
     {% include portfolio/work1.html %}
     LIST VIEW
     {% include scripts.html %}
