@@ -5,34 +5,40 @@ layout: default
 <div>
     {% include head.html %}
     {% include navbar.html %}
-    <div class="main-content">
-        <div class="container">
+    <main class="main-content">
+        <section class="container">
 
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="breadcrumb-container">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a href="{{ site.baseurl }}">Home</a>
-                    </li>
-                    <li class="breadcrumb-item" aria-current="page">
-                        About
-                    </li>
-                </ol>
-            </nav>
-            <!-- TITLE -->
-            <section class="row">
-                <div class="col-12">
-                    <h2>
-                        Portfolio
-                    </h2>
+            <header class="hero hero-small row align-items-center justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <!-- Breadcrumb -->
+                    <nav aria-label="breadcrumb" class="breadcrumb-container">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="{{ site.baseurl }}/index.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item" aria-current="page">
+                                Portfolio
+                            </li>
+                        </ol>
+                    </nav>
+                    <h1>
+                        My Portfolio
+                    </h1>
+                    <small>
+                        Contact me for further discussion (:
+                    </small>
                 </div>
-            </section>
-            <!-- LIST Portfolio-->
+                    <!-- TITLE -->
+            </header>
+                <!-- LIST Portfolio-->
 
-        </div>
-    </div>
+        </section>
+
+        List View
+    </main>
+    <!--
     {% include portfolio/work1.html %}
-    LIST VIEW
+    -->
     {% include scripts.html %}
     {% include footer.html %}
 </div>
