@@ -17,7 +17,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #4a9ffa;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -166,13 +166,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: var(--grey);
   text-decoration: none;
   background-color: transparent
 }
 
 a:hover {
-  color: #0056b3;
+  color: var(--teal);
   text-decoration: underline
 }
 
@@ -15355,7 +15355,7 @@ h5,
 
 h1 span {
   font-family: kings-caslon, serif;
-  color: var(--blue);
+  color: var(--teal);
 }
 
 body,
@@ -15397,11 +15397,11 @@ h2 span a {
 }
 
 a:hover {
-  color: var(--blue)
+  color: var(--teal)
 }
 
 article a {
-  color: var(--blue)
+  color: var(--teal)
 }
 
 .post-content a {
@@ -15428,14 +15428,14 @@ article a {
 
 .prev-next a {
   border: none;
-  color: var(--blue);
+  color: var(--teal);
   padding: .5em 1em;
   border-radius: 2px
 }
 
 .prev-next a:hover {
   border: none;
-  background: var(--blue);
+  background: var(--dark);
   color: #fff
 }
 
@@ -15465,8 +15465,8 @@ button.btn {
   font-weight: 400
 }
 
-.btn-blue {
-  background: var(--blue);
+.btn-teal {
+  background: var(--teal);
   color: #fff
 }
 
@@ -15487,8 +15487,8 @@ button.btn:hover {
   border: none
 }
 
-.btn-blue:hover {
-  color: var(--blue)
+.btn-teal:hover {
+  color: var(--teal)
 }
 
 .btn-black:hover {
@@ -15549,7 +15549,7 @@ section {
 }
 
 .navbar .nav-link:hover {
-  color: var(--blue)
+  color: var(--teal)
 }
 
 .backdrop,
@@ -15599,7 +15599,7 @@ nav.tabbar a i.fal {
 
 .navbar .active .nav-link {
   font-weight: 700;
-  color: var(--blue)
+  color: var(--teal)
 }
 
 .breadcrumb-container {
@@ -15627,7 +15627,7 @@ nav.tabbar a i.fal {
 }
 
 .breadcrumb-item a:hover {
-  color: var(--blue);
+  color: var(--dark);
   border-bottom: none
 }
 
@@ -15660,7 +15660,7 @@ nav.tabbar a i.fal {
 }
 
 .home .hero p a {
-  color: var(--blue);
+  color: var(--teal);
   border: none;
   display: inline-block
 }
@@ -15775,7 +15775,7 @@ footer a {
 }
 
 .experience h3 a:hover {
-  color: var(--blue);
+  color: var(--dark);
   background: 0 0;
   border: none
 }
@@ -16040,7 +16040,7 @@ input {
   font-weight: 300;
   padding: .25em;
   color: #fff;
-  background: var(--blue)
+  background: var(--teal)
 }
 
 .slick-arrow {
@@ -16127,7 +16127,7 @@ input {
   height: 20px;
   content: '\f111';
   text-align: center;
-  color: var(--blue);
+  color: var(--teal);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
@@ -16365,7 +16365,7 @@ pre.wp-block-code {
   padding: 1em 2.25em;
   border: none;
   font-weight: 400;
-  background: var(--blue);
+  background: var(--teal);
   color: #fff
 }
 
