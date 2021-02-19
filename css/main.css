@@ -5255,7 +5255,7 @@ input[type=submit].btn-block {
   display: inline-block;
   padding-right: .5rem;
   color: #6c757d;
-  content: "/"
+  content: "\f0da"
 }
 
 .breadcrumb-item+.breadcrumb-item:hover::before {
@@ -15680,7 +15680,8 @@ nav.tabbar a i.fal {
 }
 
 .view-all {
-  font-weight: 500
+  font-weight: 500;
+  color: var(--grey) 
 }
 
 footer,

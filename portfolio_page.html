@@ -5,8 +5,40 @@ layout: default
 <div>
     {% include head.html %}
     {% include navbar.html %}
+    <main class="main-content">
+        <section class="container">
+
+            <header class="hero hero-small row align-items-center justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <!-- Breadcrumb -->
+                    <nav aria-label="breadcrumb" class="breadcrumb-container">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="{{ site.baseurl }}/index.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item" aria-current="page">
+                                Portfolio
+                            </li>
+                        </ol>
+                    </nav>
+                    <h1>
+                        My Portfolio
+                    </h1>
+                    <small>
+                        Contact me for further discussion (:
+                    </small>
+                </div>
+                    <!-- TITLE -->
+            </header>
+                <!-- LIST Portfolio-->
+
+        </section>
+
+        List View
+    </main>
+    <!--
     {% include portfolio/work1.html %}
-    LIST VIEW
+    -->
     {% include scripts.html %}
     {% include footer.html %}
 </div>
