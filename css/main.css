@@ -12,7 +12,8 @@
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #20c997;
+  --teal2: #20c997;
+  --teal2: #11D3F3;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
@@ -175,7 +176,7 @@ a {
 }
 
 a:hover {
-  color: var(--teal);
+  color: var(--teal2);
   text-decoration: underline
 }
 
@@ -15358,7 +15359,7 @@ h5,
 
 h1 span {
   font-family: kings-caslon, serif;
-  color: var(--teal);
+  color: var(--teal2);
 }
 
 body,
@@ -15400,11 +15401,11 @@ h2 span a {
 }
 
 a:hover {
-  color: var(--teal)
+  color: var(--teal2)
 }
 
 article a {
-  color: var(--teal)
+  color: var(--teal2)
 }
 
 .post-content a {
@@ -15431,7 +15432,7 @@ article a {
 
 .prev-next a {
   border: none;
-  color: var(--teal);
+  color: var(--teal2);
   padding: .5em 1em;
   border-radius: 2px
 }
@@ -15469,7 +15470,7 @@ button.btn {
 }
 
 .btn-teal {
-  background: var(--teal);
+  background: var(--teal2);
   color: #fff
 }
 
@@ -15491,7 +15492,7 @@ button.btn:hover {
 }
 
 .btn-teal:hover {
-  color: var(--teal)
+  color: var(--teal2)
 }
 
 .btn-black:hover {
@@ -15552,7 +15553,7 @@ section {
 }
 
 .navbar .nav-link:hover {
-  color: var(--teal)
+  color: var(--teal2)
 }
 
 .backdrop,
@@ -15602,7 +15603,7 @@ nav.tabbar a i.fal {
 
 .navbar .active .nav-link {
   font-weight: 700;
-  color: var(--teal)
+  color: var(--teal2)
 }
 
 .breadcrumb-container {
@@ -15663,7 +15664,7 @@ nav.tabbar a i.fal {
 }
 
 .home .hero p a {
-  color: var(--teal);
+  color: var(--teal2);
   border: none;
   display: inline-block
 }
@@ -16043,7 +16044,7 @@ input {
   font-weight: 300;
   padding: .25em;
   color: #fff;
-  background: var(--teal)
+  background: var(--teal2)
 }
 
 .slick-arrow {
@@ -16130,7 +16131,7 @@ input {
   height: 20px;
   content: '\f111';
   text-align: center;
-  color: var(--teal);
+  color: var(--teal2);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
@@ -16368,7 +16369,7 @@ pre.wp-block-code {
   padding: 1em 2.25em;
   border: none;
   font-weight: 400;
-  background: var(--teal);
+  background: var(--teal2);
   color: #fff
 }
 
