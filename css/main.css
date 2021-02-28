@@ -12,8 +12,8 @@
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal2: #20c997;
-  --teal2: #11D3F3;
+  --teal: #20c997;
+  --teal2: #9BAFD9;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
@@ -63,7 +63,7 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, segoe ui symbol, noto color emoji;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, noto color emoji;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

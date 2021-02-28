@@ -4,7 +4,18 @@
     {% include head.html %}
 </head>
 <body>
-    {{ content }} 
+    {% include navbar.html %}
+    <main class="main-content">
+        {{ content }} 
+        <header class="hero hero-small row align-items-center justify-content-center"></header>
+        <div class="row justify-content-center mb-2em"></div>
+        <div class="rpw justify-content-center"></div>
+        <div class="row align-items-center justify-content-center custom-block mt-4 mb-4"></div>
+        <div class="row justify-content-center"></div>
+        <hr>
+        <div class="row align-items-center mt-2em mb-2em"></div>
+        <hr>
     {% include scripts.html %}
+    {% include footer.html %}
 </body>
 </html>
